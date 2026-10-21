@@ -1,7 +1,7 @@
 # Higher-order sequence space: an introduction
 
-These notebooks accompany *Higher-Order Perturbation in Sequence Space: the
-Certainty Correspondence*, by Adrien Auclert, Rodolfo Rigato, Matthew Rognlie,
+These notebooks accompany [*Higher-Order Perturbation in Sequence Space: the
+Certainty Correspondence*](https://web.stanford.edu/~aauclert/higher_order_sequence_space.pdf), by Adrien Auclert, Rodolfo Rigato, Matthew Rognlie,
 and Ludwig Straub. They introduce the paper's methods for its smooth
 standard incomplete markets (SIM) household model in both PE and GE. Starting from a nonlinear household solver,
 they build up to a third-order solution under aggregate uncertainty, then use
