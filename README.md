@@ -14,7 +14,7 @@ It focuses on the constructions in sections 3 and 4, with supporting examples fr
 
 ## Guide to the notebooks
 
-Notebooks 0 through 3 form a sequence. Notebook 0 introduces the basic
+Notebook 0 introduces the basic
 smooth model, and notebook 1 uses numerical differentiation
 to implement many of our results with this model. Notebook 2 then introduces analytical differentiation
 and uses its far greater speed to calculate more extensive second- and third-order results.
@@ -22,7 +22,7 @@ Notebook 3 finally calculates the full third-order solution and uses it for simu
 
 The supplemental notebook A is separate from the main sequence, focusing on how well perturbation captures the effect of large fiscal shocks, and it can be read after notebook 1.
 
-### 0. The smooth standard incomplete markets (SIM) model
+### [0. The smooth standard incomplete markets (SIM) model](https://github.com/shade-econ/higher-order/blob/main/0_smooth_sim.ipynb)
 
 - Introduces the household model used throughout, following appendix C in the paper, and
   compares it with a conventional discrete implementation under the same
@@ -35,7 +35,7 @@ The supplemental notebook A is separate from the main sequence, focusing on how 
   Figure C.7 (sensitivity of derivatives to step size); extends Figure C.6(b)
   with a discrete-model comparison of asset distributions.
 
-### 1. Numerical sequence-space perturbation
+### [1. Numerical sequence-space perturbation](https://github.com/shade-econ/higher-order/blob/main/1_numerical.ipynb)
 
 - Develops the certainty correspondence in sections 3.1–3.4 (**Propositions
   2–4**) using numerical differentiation: shock-size effects, interactions
@@ -51,7 +51,7 @@ The supplemental notebook A is separate from the main sequence, focusing on how 
   (shock-size dependence), 3(a,b) (risky steady-state assets and distribution),
   4(a,b) (second- and third-order decompositions), and 5(c) (impact GIRF).
 
-### 2. Analytical sequence-space perturbation
+### [2. Analytical sequence-space perturbation](https://github.com/shade-econ/higher-order/blob/main/2_analytical.ipynb)
 
 - Introduces the analytical differentiation approach in section 4.5, checks it
   against numerical differentiation, and compares their speed.
@@ -68,7 +68,7 @@ The supplemental notebook A is separate from the main sequence, focusing on how 
   Figure B.6(a) (second-order GE decomposition into size, history, and risk effects), and Figure B.7(a,b) (output
   variance and first autocovariance).
 
-### 3. Complete solutions and simulation
+### [3. Complete solutions and simulation](https://github.com/shade-econ/higher-order/blob/main/3_complete.ipynb)
 
 - Assembles the complete third-order GE solution with a single call, including
   interactions among three distinct shock dates, and uses it to simulate output.
@@ -80,7 +80,7 @@ The supplemental notebook A is separate from the main sequence, focusing on how 
 - **Connection to the paper:** illustrates the simulation and multiplier
   exercises of section 5 in the simpler IKC model.
 
-### A. How accurate are perturbation approximations for large shocks?
+### [A. How accurate are perturbation approximations for large shocks?](https://github.com/shade-econ/higher-order/blob/main/A_large_shocks.ipynb)
 
 - Follows appendix D, comparing first-, second-, and third-order approximations
   with nonlinear perfect-foresight responses in partial and general equilibrium.
